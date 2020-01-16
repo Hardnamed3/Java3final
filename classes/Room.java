@@ -4,7 +4,7 @@ public class Room {
 
     public static void main(String[] args) {
         Room r = new Room();
-        r.addEnemy(new Enemy());
+        r.addEnemy(new Zombie());
         r.Refresh();
     }
 
