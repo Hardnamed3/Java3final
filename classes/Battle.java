@@ -57,6 +57,7 @@ public class Battle implements EasterEgg {
                 //print the info of this battle round
                 System.out.println("You dealt " + dmg + " damage to the ");
                 System.out.println("The " +" dealt " + dmgTook + " damage to you.");
+
                 //check if player is still alive or dead
                 if(player.getHP() <= 0){
                     System.out.println("YOU DIED"); //method to end the game
