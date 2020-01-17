@@ -4,6 +4,11 @@ public class LeatherArmor extends Armor {
     {
         Def_Bonus = 3;
         partOfBody = "Chest";
+        Name = "Leather Armor";
 
+    }
+    public String getName(){
+        super.getName();
+        return Name;
     }
 }
